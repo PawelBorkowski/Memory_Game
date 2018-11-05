@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+div {
+    flex-basis: 25%;
+    flex-grow: 1;
+    height: 20vh;
+    background-image: url(/images/cars.jpeg);
+    border: 4px solid white; 
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+@media (orientation : portrait){
+    div {
+        flex-basis: 20%;
+        height: 25vh;
+    }
+}
+
+.audi {
+    background-image: url(../images/audi.jpeg);
+}
+
+.bmw {
+    background-image: url(../images/bmw.jpeg);
+}
+
+.ford {
+    background-image: url(../images/ford.jpeg);
+}
+
+.jaguar {
+    background-image: url(../images/jaguar.jpeg);
+}
+
+.land_rover {
+    background-image: url(../images/land_rover.jpeg);
+}
+
+.maserati {
+    background-image: url(../images/maserati.jpeg);
+}
+
+.mercedes {
+    background-image: url(../images/mercedes.jpeg);
+}
+
+.porsche {
+    background-image: url(../images/porsche.jpeg);
+}
+
+.rolls {
+    background-image: url(../images/rolls.jpeg);
+}
+
+.mini {
+    background-image: url(../images/mini.jpeg);
+}
+
+.off {
+    background-image: url(../images/cars.jpeg);
+    opacity: 0.5;
+}
+
+.hidden {
+    background-image: url(../images/cars.jpeg);
+    
+}
